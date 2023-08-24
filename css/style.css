@@ -129,17 +129,32 @@ header .icons #showNavicon{
 @media (max-width:520px) {
        header .icons .btn {
               padding: 6px 10px;
-              float: left;
-            
-           
-             
+              float: left;              
        }
        header .BrandName h3 {
             display: none;
        }
+       
       
 }
 
+@media (max-width:576px){
+       header #navbar{
+             
+       }
+       header .BrandName h3 {
+              font-size: 10px;
+         }
+         header .icons .btn {
+              padding: 6px 8px;
+              font-size: 10px;
+              float: left;             
+       }
+       header .icons{
+              float: left;
+              left: 0;
+       }
+}
        /* =============wrapper section desing=============== */
 
        #wrapper .wrapper-container{
